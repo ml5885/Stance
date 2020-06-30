@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div440SHOWK9ZWGOWB"></div>
+        <div class="lime top_div" id="top_div7BE5RAJTJ5GHCDY"></div>
         
         <script>
-        var top_div = d3.select('#top_div440SHOWK9ZWGOWB').classed('lime top_div', true);
+        var top_div = d3.select('#top_div7BE5RAJTJ5GHCDY').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [1.4934584661011677e-05, 0.9999850654153389]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9906308978190137, 0.009369102180986239]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["loser", 0.2164998237703502], ["die", 0.18631849297431669], ["You", 0.13006488305927902], ["are", 0.09880688779815804], ["you", 0.06593265016605729], ["deserve", -0.03458513194488744], ["pile", -0.0345333763398782], ["the", -0.028433978620060064], ["trash", -0.027765739620444735], ["for", -0.027271228532391063]], 1, exp_div);
+                exp.show([["Hi", 0.0030000040263237658]], 0, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["loser", 8, 0.2164998237703502], ["die", 30, 0.18631849297431669], ["You", 0, 0.13006488305927902], ["You", 15, 0.13006488305927902], ["are", 4, 0.09880688779815804], ["are", 75, 0.09880688779815804], ["you", 71, 0.06593265016605729], ["deserve", 19, -0.03458513194488744], ["pile", 52, -0.0345333763398782], ["the", 38, -0.028433978620060064], ["trash", 60, -0.027765739620444735], ["for", 34, -0.027271228532391063]], 1, "You are loser. You deserve to die for the worthless pile of trash that you are.", raw_div, true);
+            exp.show_raw_text([["Hi", 0, 0.0030000040263237658]], 0, "Hi", raw_div, true);
             
         </script>
         </body></html>

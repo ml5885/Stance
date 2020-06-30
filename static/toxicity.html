@@ -161,6 +161,7 @@
           function collect_data() {
             $.post("http://127.0.0.1:9875/handle_data", $("#MSG"),
                 function(data, textStatus, jqXHR) {
+                  document.getElementsByClassName('buttons')[0].style.visibility = 'hidden';
                   invoice_status_data = JSON.parse(data)
                   invoice_status_chart();
                   document.getElementsByClassName('buttons')[0].style.visibility = 'visible';
