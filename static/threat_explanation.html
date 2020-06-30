@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div8IUYC9N78OMYA56"></div>
+        <div class="lime top_div" id="top_divVPI1FA2IRPWHQ64"></div>
         
         <script>
-        var top_div = d3.select('#top_div8IUYC9N78OMYA56').classed('lime top_div', true);
+        var top_div = d3.select('#top_divVPI1FA2IRPWHQ64').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9942178095986406, 0.005782190401359423]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9975381525726926, 0.002461847427307254]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["are", 0.00926411231758386], ["fucking", -0.00505482786254317], ["down", -0.005018340249678935], ["you", -0.004794456975511236], ["worthless", 0.002922468319877013], ["pile", 0.002548520701738966], ["should", -0.0024397644128642954], ["trash", 0.0021040997695049475], ["the", 0.002055067441680126], ["be", -0.0010257650708535718]], 0, exp_div);
+                exp.show([["Hi", -0.0007103074302040729], ["there", 0.0003803657522522659]], 0, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["are", 13, 0.00926411231758386], ["are", 158, 0.00926411231758386], ["fucking", 19, -0.00505482786254317], ["down", 115, -0.005018340249678935], ["you", 9, -0.004794456975511236], ["you", 154, -0.004794456975511236], ["worthless", 27, 0.002922468319877013], ["pile", 63, 0.002548520701738966], ["should", 98, -0.0024397644128642954], ["trash", 71, 0.0021040997695049475], ["the", 123, 0.002055067441680126], ["the", 139, 0.002055067441680126], ["be", 105, -0.0010257650708535718]], 0, "Malphite you are a fucking worthless brainded scumfuck bastard pile of trash mental dickface that should be gunned down in the street like the degenerate you are", raw_div, true);
+            exp.show_raw_text([["Hi", 0, -0.0007103074302040729], ["there", 3, 0.0003803657522522659]], 0, "Hi there", raw_div, true);
             
         </script>
         </body></html>
